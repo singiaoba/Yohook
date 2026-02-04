@@ -1,0 +1,10 @@
+﻿// 资源文件 - 自动使用 ico 文件夹中的图标
+#include "resource.h"
+
+// 应用程序图标 - 多尺寸支持
+// 注意: Windows 使用资源ID最小的图标作为应用程序主图标
+// 建议将最高质量的图标放在 IDI_APP_ICON (ID=101)
+
+// IDI_APP_ICON      ICON "ico\\128.ico"   // 128x128 主图标 (用于大图标显示)
+// IDI_APP_ICON_64   ICON "ico\\64.ico"    // 64x64
+// IDI_APP_ICON_32   ICON "ico\\32.ico"    // 32x32 (用于标题栏、任务栏)
