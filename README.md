@@ -104,7 +104,11 @@ Folder = 0
 ArchiveFile = 0
 SavePath = 0
 ```
-> **提示**：将任意参数设为 `0` 可单独关闭对应功能。
+> **提示**：<br>
+> 将任意参数设为 `0` 可单独关闭对应功能。<br>
+> Folder = script | 从script文件夹中读取<br>
+> ArchiveFile = script.chs | 从script.chs压缩包中读取
+
 ### 文件读取优先级
 1. **外部文件夹** (`Folder`)
 2. **资源包文件** (`ArchiveFile`)
